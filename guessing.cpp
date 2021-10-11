@@ -8,7 +8,7 @@
 
 int main() {
     // this function checks for the random number
-    const int the_number = 5;
+    const int THE_NUMBER = 5;
     int random_number;
 
     // input
@@ -20,14 +20,13 @@ int main() {
     if (random_number == 5) {
         // output
         std::cout << "Correct";
-        std::cout << "" << std::endl;
-        std::cout << "Done.";
-    }
+    } 
+    
     // process
     if (random_number != 5) {
         // output
         std::cout << "Wrong, try again.";
-        std::cout << "" << std::endl;
-        std::cout << "Done.";
     }
+    std::cout << "" << std::endl;
+    std::cout << "\nDone.";
 }
