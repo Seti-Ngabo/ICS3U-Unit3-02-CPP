@@ -20,8 +20,8 @@ int main() {
     if (random_number == 5) {
         // output
         std::cout << "Correct";
-    } 
-    
+    }
+
     // process
     if (random_number != 5) {
         // output
